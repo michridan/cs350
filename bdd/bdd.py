@@ -1,4 +1,4 @@
-######## BDD Programming Assignment ########
+######## BDD Programming Assignment: Michael Dandrea ########
 
 from pyeda.inter import *
 from functools import reduce
