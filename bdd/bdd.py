@@ -34,8 +34,8 @@ def init_bdd():
 		Creates the initial BDD for the project 
 	"""
 	n = 0
-	for i in range(0, 31):
-		for j in range(0, 31):
+	for i in range(0, 32):
+		for j in range(0, 32):
 			if (i + 3) % 32 == j % 32 or (i + 7) % 32 == j % 32:
 				if n != 0:
 					f = create_bool_formula(i, j) | f
